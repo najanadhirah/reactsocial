@@ -10,8 +10,9 @@
   "author": "NajaDev",
   "license": "MIT",
   "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react": "^16.2.0",
+    "react-dom": "^16.6.3",
+    "react-facebook-login": "^4.1.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
