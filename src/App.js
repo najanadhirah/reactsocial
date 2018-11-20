@@ -9,7 +9,7 @@ class App extends Component {
             <h1>Facebook Auth Example</h1>
         </header>
         <p className="App-intro">
-            To get started, authenticate with Facebook
+            To get started, authenticate with Facebook!dhksa
         </p>
         <Facebook />
         </div>
