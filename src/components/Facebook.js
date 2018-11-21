@@ -4,6 +4,7 @@ import FacebookLogin from 'react-facebook-login';
 export default class Facebook extends Component {
   constructor (props) {
     super(props);
+    this.responseFacebook = this.responseFacebook.bind(this);
     this.state = {
       isLoggedIn: false,
       userID: '',
@@ -14,7 +15,7 @@ export default class Facebook extends Component {
   }
 
   responseFacebook (response) {
-    // console.log(response);
+    console.log(response);
     
     this.setState({
       isLoggedIn: true,
